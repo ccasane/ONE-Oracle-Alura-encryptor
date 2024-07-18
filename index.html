@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encryptor text</title>
+    <link rel="stylesheet" href="./src/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="./src/assets/favicon/lock.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+        <img src="./src/assets/img/logo.png" alt="Logo Alura">
+    </header>
+
+    <div class="container">
+
+        <div class="encryptor__container__text">
+
+            <div class="encryptor__text__area">
+                <textarea id="encryptor__text" placeholder="Ingrese el texto aquí"></textarea>
+                <div class="encryptor__text_span">
+                    <img src="./src/assets/img/warning.png" alt="">
+                    <span>Solo letras minúsculas y sin acentos</span>
+                </div>
+                <div class="encryptor__text__btn">
+                    <button class="encrypt">Encriptar</button>
+                    <button class="desencrypt">Desencriptar</button>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="encryptor__container__result">
+            <div class="encryptor__result__area">
+                <img src="./src/assets/img/person.png" alt="">
+                <h3>Ningún mensaje fue encontrado</h3>
+                <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+                <button class="encryptor__result__copy">Copiar</button>
+            </div>
+        </div>
+
+    </div>
+    <footer>
+        <p>Made with love by <a href="https://github.com/joelccasane" target="_blank" rel="noopener noreferrer">Joel Ccasane</a> | design by Alura</p>
+    </footer>
+    <script src="./src/app.js"></script>
+</body>
+</html>
